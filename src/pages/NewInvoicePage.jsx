@@ -167,7 +167,7 @@ const InvoicePage = () => {
           <div ref={invoiceRef} className=" bg-white dark:bg-gray-800 shadow-md rounded p-4 overflow-auto">
             {/* Header Image */}
             <div className="text-center mb-4">
-              <img src="src\pages\header.png" alt="Header" className="mx-auto w-full" style={{ maxWidth: '100%' }} />
+              <img src="./src/pages/header.png" alt="Header" className="mx-auto w-full" style={{ maxWidth: '100%' }} />
             </div>
 
             {/* Invoice Details Table */}
