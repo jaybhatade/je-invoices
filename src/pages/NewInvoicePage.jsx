@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { FiSun, FiMoon, FiPlus, FiTrash } from "react-icons/fi";
+import { FiPlus, FiTrash } from "react-icons/fi";
 import { useReactToPrint } from "react-to-print";
 
 const InvoicePage = () => {
