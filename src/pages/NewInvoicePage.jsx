@@ -3,7 +3,6 @@ import { FiPlus, FiTrash } from "react-icons/fi";
 import { useReactToPrint } from "react-to-print";
 
 const InvoicePage = () => {
-
   const [items, setItems] = useState([{ description: "", qty: "", unit: "Nos", rate: "" }]);
   const [clientName, setClientName] = useState("");
   const [clientAddress, setClientAddress] = useState("");
